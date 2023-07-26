@@ -16,6 +16,9 @@
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>web</name>
+	
+<!--	http://localhost:8080/web/index.zul-->
+	
 	<description>web module</description>
 
 	<properties>
