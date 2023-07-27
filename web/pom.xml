@@ -16,9 +16,9 @@
 	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>web</name>
-	
-<!--	http://localhost:8080/web/index.zul-->
-	
+
+	<!--	http://localhost:8080/web/index.zul-->
+
 	<description>web module</description>
 
 	<properties>
@@ -60,6 +60,12 @@
 		<dependency>
 			<groupId>jakarta.servlet</groupId>
 			<artifactId>jakarta.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
 			<scope>provided</scope>
 		</dependency>
 

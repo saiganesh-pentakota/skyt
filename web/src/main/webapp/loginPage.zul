@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="login" title="SPY" contentType="text/html;charset=UTF-8" cacheable="false" language="xul/html"?>
+<?link rel="shortcut icon" type="image/x-icon" href="/images/emoji.png"?>
+<zk>
+	<window title="Hey..! spy,please login to access" border="normal" width="100%"
+		apply="com.spy.dev.web.login.LoginController">
+		<vbox spacing="10px">
+			<textbox id="username" placeholder="Username" />
+			<textbox id="password" type="password"
+				placeholder="Password" />
+			<button id="login" label="Login" />
+		</vbox>
+	</window>
+</zk>
