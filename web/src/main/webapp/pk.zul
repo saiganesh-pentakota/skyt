@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page title="pranay" contentType="text/html;charset=UTF-8"?>
+<zk>
+  <window title="Ganesh Yamini" border="normal" width="1500px">
+
+    <vlayout>
+      <hlayout>
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+      </hlayout>
+
+      <hlayout>
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+      </hlayout>
+      <hlayout>
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+        <image src="/images/mrg.jpg" width="360px" height="200px" />
+      </hlayout>
+    </vlayout>
+
+  </window>
+</zk>
