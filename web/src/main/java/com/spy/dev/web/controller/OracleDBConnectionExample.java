@@ -1,4 +1,4 @@
-package com.spy.dev.web.login;
+package com.spy.dev.web.controller;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

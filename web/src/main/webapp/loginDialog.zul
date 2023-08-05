@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?page id="login" title="SPY" contentType="text/html;charset=UTF-8" cacheable="false" language="xul/html"?>
+<?link rel="shortcut icon" type="image/x-icon" href="/images/emoji.png"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+	<style>
+		.welcome-container { display: flex; justify-content: center;
+		align-items: center; min-height: 100vh; background:
+		linear-gradient(to right, #4A90E2, #1E7AD6); }
+
+		.welcome-box { background-color: white; padding: 30px;
+		border-radius: 10px; box-shadow: 0px 5px 15px rgba(0, 0, 0,
+		0.3); text-align: center; }
+
+		.welcome-title { font-size: 28px; color: #333; }
+
+		.login-form { margin-top: 20px; }
+
+		.login-input { width: 100%; padding: 10px; border: none;
+		border-radius: 5px; margin-bottom: 10px; }
+
+		.login-button { background-color: #1E7AD6; color: white; border:
+		none; padding: 10px 20px; border-radius: 5px; cursor: pointer;
+		font-size: 16px; }
+	</style>
+
+	<div class="welcome-container">
+		<div class="welcome-box">
+			<div class="welcome-title">Welcome to My Stylish App</div>
+			<form class="login-form">
+				<input class="login-input" type="text"
+					placeholder="Username" />
+				<input class="login-input" type="password"
+					placeholder="Password" />
+				<button class="login-button">Login</button>
+			</form>
+		</div>
+	</div>
+</zk>
+

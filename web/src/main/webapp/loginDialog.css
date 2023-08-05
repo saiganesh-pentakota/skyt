@@ -1,0 +1,66 @@
+/* Custom CSS for the login dialog */
+
+/* Apply background and text color to the window */
+.window {
+    background-color: rgb(192, 192, 192);
+    color: rgb(64, 128, 128);
+}
+
+/* Center the login window */
+.window-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style the login button */
+.z-button {
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px #888;
+}
+
+/* On hover effect for the login button */
+.z-button:hover {
+    background-color: rgb(0, 128, 0);
+}
+
+/* Style the input boxes */
+.z-textbox {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+/* On focus effect for the input boxes */
+.z-textbox:focus {
+    border-color: #2196F3;
+    box-shadow: 0 0 5px #2196F3;
+}
+
+/* Remove default border around the textbox placeholder */
+.z-textbox::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.z-textbox:-moz-placeholder { /* Firefox 18- */
+    color: transparent;
+}
+
+.z-textbox::-moz-placeholder { /* Firefox 19+ */
+    color: transparent;
+}
+
+.z-textbox:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* Style the "Forgot your password?" link */
+.z-label {
+    cursor: pointer;
+}
+
+/* On hover effect for the "Forgot your password?" link */
+.z-label:hover {
+    color: #1976D2;
+}
