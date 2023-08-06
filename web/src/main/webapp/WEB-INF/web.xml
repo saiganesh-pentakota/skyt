@@ -41,6 +41,7 @@
 		<url-pattern>/zkau/*</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
+		<welcome-file>pranay.zul</welcome-file>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
@@ -49,4 +50,8 @@
 		<welcome-file>default.jsp</welcome-file>
 		<welcome-file>index.zul</welcome-file>
 	</welcome-file-list>
+	<servlet-mapping>
+		<servlet-name>zkLoader</servlet-name>
+		<url-pattern>/spy-web/pranay</url-pattern>
+	</servlet-mapping>
 </web-app>
