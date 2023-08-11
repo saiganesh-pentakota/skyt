@@ -4,7 +4,8 @@
 <?meta charset="UTF-8" name="viewport" content="width=1024, initial-scale=1, maximum-scale=1"?>
 <zk xmlns="http://www.zkoss.org/2005/zul">
 	<style>
-		.shutter-cloth { height: 100%; width: 100%; position: relative; overflow: hidden; }
+		.shutter-cloth { height: 100%; width: 100%; position: relative;
+		overflow: hidden; }
 
 		.shutter-cloth::before { content: ""; position: absolute; top:
 		0%; left: 0; height: 100%; width: 100%; background-image:
@@ -31,8 +32,11 @@
 							<image src="images/emoji.png" height="40px" />
 						</div>
 						<div align="center">
-							<label value="Birthday Invitation"
-								style="font-weight: bold; color: #fed900; font-style: italic; font-size: -webkit-xxx-large; font-family: ui-monospace;" />
+							<image src="images/north.png"
+								style="position: absolute; top: 0;left: 0;width: 100%;
+			height: 100%;
+			 background-size: cover ; background-position:
+								center center ; z-index: 0;" />
 						</div>
 						<div align="right">
 							<label value="SPY"
@@ -51,29 +55,29 @@
 				</div>
 			</south>
 			<west size="10%" border="none">
-				<div>
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
-					<image src="images/leftEmoji.png" width="100%" />
+				<div
+					style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+					<image src="images/bb1.png" width="220%" />
+					<image src="images/bb2.png" width="220%" />
+					<image src="images/bb3.png" width="220%" />
+					<image src="images/bb4.png" width="220%" />
+					<image src="images/bb5.png" width="220%" />
+					<image src="images/bb6.png" width="220%" />
+					<image src="images/bb7.png" width="220%" />
+					<image src="images/bb8.png" width="220%" />
 				</div>
 			</west>
 			<east size="10%" border="none">
-				<div>
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
-					<image src="images/rightEmoji.png" width="100%" />
+				<div
+					style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+					<image src="images/bb9.png" width="220%" />
+					<image src="images/bb10.png" width="220%" />
+					<image src="images/bb11.png" width="200%" />
+					<image src="images/bb12.png" width="220%" />
+					<image src="images/bb13.png" width="220%" />
+					<image src="images/bb14.png" width="220%" />
+					<image src="images/bb15.png" width="220%" />
+					<image src="images/bb16.png" width="220%" />
 				</div>
 			</east>
 			<center border="none" autoscroll="true">
