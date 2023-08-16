@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?page id="index" title="SPY" contentType="text/html;charset=UTF-8" cacheable="false" language="xul/html"?>
 <?link rel="shortcut icon" type="image/x-icon" href="/images/emoji.png"?>
-<?meta charset="UTF-8" name="viewport" content="width=1024, initial-scale=1, maximum-scale=1"?>
+<?meta  name="viewport" content="width=1024, maximum-scale=1"?>
 <zk xmlns="http://www.zkoss.org/2005/zul">
 	<style>
 		.shutter-cloth { height: 100%; width: 100%; position: relative;
@@ -10,10 +10,10 @@
 		.shutter-cloth::before { content: ""; position: absolute; top:
 		0%; left: 0; height: 100%; width: 100%; background-image:
 		url("images/ccloth.png"); background-size: cover;
-		background-position: center center; animation: curtain-open 6s
+		background-position: center center; animation: curtain-open 15s
 		reverse forwards; z-index: 1; }
 
-		@keyframes curtain-open { 10% { transform: translateY(-100%); }
+		@keyframes curtain-open { 0% { transform: translateY(-100%); }
 		100% { transform: translateY(0); } }
 
 		.custom-background { background-repeat: no-repeat;
@@ -22,25 +22,24 @@
 
 	</style>
 	<window id="indexWindow" border="none" width="100%" height="100%"
-		sizable="false">
+		sizable="true">
 		<borderlayout height="100%">
 			<north height="8%" border="none"
 				style="background-color: #113b54;">
 				<div>
 					<hbox pack="stretch" width="100%">
 						<div align="left">
-							<image src="images/emoji.png" height="40px" />
+							<image src="images/flowers.png"
+								height="140px" />
 						</div>
 						<div align="center">
-							<image src="images/north.png"
-								style="position: absolute; top: 0;left: 0;width: 100%;
-			height: 100%;
-			 background-size: cover ; background-position:
-								center center ; z-index: 0;" />
+							<label id="kiran"
+								value="Pranay Kiran Birthday Invitation"
+								style="color: white;font-style: italic;font-weight: bold;font-size:50px" />
 						</div>
 						<div align="right">
-							<label value="SPY"
-								style="font-weight: bold;color: #ffdd00;" />
+							<image src="images/gold1.png"
+								height="100px" />
 						</div>
 					</hbox>
 				</div>
@@ -49,7 +48,8 @@
 				<div align="center">
 					<hlayout>
 						<label
-							value="Copyright © 2023 Spy Innovations.All rights reserved." />
+							style="font-style: italic;font-weight: bold;color: #001726;"
+							value="Designed by saiganesh pentakota.All rights reserved." />
 						<a iconSclass="z-icon-info-circle" />
 					</hlayout>
 				</div>
@@ -59,25 +59,25 @@
 					style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
 					<image src="images/bb1.png" width="220%" />
 					<image src="images/bb2.png" width="220%" />
-					<image src="images/bb3.png" width="220%" />
+					<image src="images/bb3.png" width="250%" />
 					<image src="images/bb4.png" width="220%" />
 					<image src="images/bb5.png" width="220%" />
 					<image src="images/bb6.png" width="220%" />
 					<image src="images/bb7.png" width="220%" />
-					<image src="images/bb8.png" width="220%" />
+					<image src="images/bb8.png" width="160%" />
 				</div>
 			</west>
 			<east size="10%" border="none">
 				<div
 					style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-					<image src="images/bb9.png" width="220%" />
-					<image src="images/bb10.png" width="220%" />
-					<image src="images/bb11.png" width="200%" />
+					<image src="images/bb9.png" width="150%" />
+					<image src="images/bb10.png" width="250%" />
+					<image src="images/bb11.png" width="150%" />
 					<image src="images/bb12.png" width="220%" />
 					<image src="images/bb13.png" width="220%" />
 					<image src="images/bb14.png" width="220%" />
-					<image src="images/bb15.png" width="220%" />
-					<image src="images/bb16.png" width="220%" />
+					<image src="images/bb15.png" width="240%" />
+					<image src="images/bb16.png" width="280%" />
 				</div>
 			</east>
 			<center border="none" autoscroll="true">
