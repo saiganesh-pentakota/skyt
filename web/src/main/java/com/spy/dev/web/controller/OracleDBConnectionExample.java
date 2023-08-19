@@ -56,6 +56,7 @@ public class OracleDBConnectionExample {
 		statement.executeUpdate(insertQuery);
 	}
 
+	@SuppressWarnings("unused")
 	private static void createUserTable(Statement statement) {
 		StringBuilder sql;
 

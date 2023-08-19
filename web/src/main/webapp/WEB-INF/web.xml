@@ -3,7 +3,7 @@
 	xmlns="http://java.sun.com/xml/ns/j2ee"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
-	<display-name>spy-web</display-name>
+	<display-name>web</display-name>
 
 	<listener>
 		<description>
@@ -42,16 +42,9 @@
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>pranay.zul</welcome-file>
-		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
-		<welcome-file>index.jsp</welcome-file>
-		<welcome-file>default.html</welcome-file>
-		<welcome-file>default.htm</welcome-file>
-		<welcome-file>default.jsp</welcome-file>
-		<welcome-file>index.zul</welcome-file>
 	</welcome-file-list>
 	<servlet-mapping>
 		<servlet-name>zkLoader</servlet-name>
-		<url-pattern>/spy-web/pranay</url-pattern>
+		<url-pattern>/web/pranay</url-pattern>
 	</servlet-mapping>
 </web-app>
