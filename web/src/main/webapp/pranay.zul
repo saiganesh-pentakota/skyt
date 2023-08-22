@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?page id="index" title="SPY" contentType="text/html;charset=UTF-8" cacheable="false" language="xul/html"?>
 <?link rel="shortcut icon" type="image/x-icon" href="/images/emoji.png"?>
-<?meta  name="viewport" content="width=1024, maximum-scale=1"?>
+<?meta  name="viewport" content="width=1024, maximum-scale=1, user-scalable=no"?>
 <zk xmlns="http://www.zkoss.org/2005/zul">
 	<style>
 		.shutter-cloth { height: 100%; width: 100%; position: relative;
